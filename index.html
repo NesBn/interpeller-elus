@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interpellez vos élus</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      padding: 20px;
+      margin: 0;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    p {
+      text-align: center;
+      color: #555;
+      font-size: 1rem;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      padding-top: 20px;
+    }
+
+    .button {
+      display: block;
+      padding: 15px;
+      background-color: #1e90ff;
+      color: white;
+      text-align: center;
+      border-radius: 12px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #0077cc;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Interpellez vos élus</h1>
+  <p>Cliquez sur un bouton pour envoyer un e-mail prérempli à l'élu concerné</p>
+
+  <div class="container">
+
+    <a class="button"
+       href="mailto:elu1@example.com?subject=Mobilité%20urbaine&body=Bonjour%20Mme%20Durand%2C%0A%0AJe%20souhaite%20vous%20interpeller%20sur%20les%20questions%20de%20mobilité%20dans%20notre%20quartier...">
+       ✉️ Mme Durand – Mobilité
+    </a>
+
+    <a class="button"
+       href="mailto:elu2@example.com?subject=Espaces%20verts&body=Bonjour%20M.%20Martin%2C%0A%0ANotre%20ville%20a%20besoin%20de%20plus%20d%27espaces%20verts%20et%20de%20mesures%20concrètes%20pour%20la%20biodiversité...">
+       🌿 M. Martin – Environnement
+    </a>
+
+    <a class="button"
+       href="mailto:elu3@example.com?subject=Jeunesse%20et%20sport&body=Bonjour%20Mme%20Lopez%2C%0A%0ALes%20jeunes%20et%20les%20associations%20ont%20besoin%20de%20soutien%20et%20d%27espaces%20dédiés...">
+       🏀 Mme Lopez – Jeunesse & Sport
+    </a>
+
+  </div>
+
+</body>
+</html>
